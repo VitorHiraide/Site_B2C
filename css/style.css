@@ -1,0 +1,81 @@
+body{
+    background-color: #000000;
+}
+#header{
+    display: flex;
+    gap: 10px 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+}
+#pesquisa{
+    display: flex;
+    column-gap: 30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+#pesquisar{
+    background-color:#C147E9 ;
+    border-radius: 8px;
+    height: 25px;
+}
+#article{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#introducao{
+    flex-wrap: wrap;
+    color: #ffffff;
+    width: 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+#section{
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#chamada{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#chamada_b2c{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #3e0053;
+    width: 100%;
+    height: 100px;
+    gap: 10px 150px;
+}
+#text_rodape{
+    color: #FFD95A;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
